@@ -68,7 +68,7 @@ function App() {
        <Alert alert={alert}/>
          <div className='container my-3'>
            <Routes>
-            <Route  path="/TextInfoAPP" element={<Text heading="Enter the text to analysis" showalert={showalert} mode={mode}/> }/>
+            <Route  path="/Text_changer" element={<Text heading="Enter the text to analysis" showalert={showalert} mode={mode}/> }/>
              <Route path="/about"  element={<About mode={mode}/>}/>
 
            </Routes>
